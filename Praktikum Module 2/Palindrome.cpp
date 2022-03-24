@@ -6,8 +6,6 @@
 using namespace std;
 
 bool isStrPalindrome(string Original){
-	for(auto &c : Original) c = tolower(c);
-	
 	string reverseStr = Original;
 	reverse(reverseStr.begin() , reverseStr.end()); 
 	
